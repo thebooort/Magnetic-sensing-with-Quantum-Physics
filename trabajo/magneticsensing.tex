@@ -1,0 +1,90 @@
+\documentclass[1p]{elsarticle}
+
+\usepackage{lineno,hyperref}
+\modulolinenumbers[5]
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{todonotes}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{amsfonts}
+\usepackage[toc,page]{appendix}
+\usepackage{amssymb}
+\newtheorem{thm}{Teorema}
+\newtheorem{lem}[thm]{Lema}
+\newdefinition{rmk}{Remark}
+\newproof{pf}{Demostración}
+\newproof{pot}{Demostración del Teorema \ref{thm2}}
+ 
+ \usepackage{listings}
+ \usepackage{color}
+ 
+ \definecolor{codegreen}{rgb}{0,0.6,0}
+ \definecolor{codegray}{rgb}{0.5,0.5,0.5}
+ \definecolor{codepurple}{rgb}{0.58,0,0.82}
+ \definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+ 
+ \lstdefinestyle{mystyle}{
+ 	backgroundcolor=\color{backcolour},   
+ 	commentstyle=\color{codegreen},
+ 	keywordstyle=\color{magenta},
+ 	numberstyle=\tiny\color{white},
+ 	stringstyle=\color{codepurple},
+ 	basicstyle=\footnotesize,
+ 	breakatwhitespace=false,         
+ 	breaklines=true,                 
+ 	captionpos=b,                    
+ 	keepspaces=true,                 
+ 	numbers=left,                    
+ 	numbersep=5pt,                  
+ 	showspaces=false,                
+ 	showstringspaces=false,
+ 	showtabs=false,                  
+ 	tabsize=2
+ }
+ 
+ \lstset{style=mystyle}
+%%\bibliographystyle{IEEEannot}
+
+%% `Elsevier LaTeX' style
+\bibliographystyle{elsarticle-num}
+%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{setspace}  
+\begin{document}
+
+\begin{frontmatter}
+
+\title{State of art in the Quantum Physics' explanation of the animals' magnetic sense }
+
+%% Group authors per affiliation:
+\author{Bartolomé Ortiz Viso}
+\address{Master en Física y Matemáticas\\ Universidad de Granada\\23/06/2018}
+
+\begin{abstract}
+This work offers a brief look in the quantum physics' explanation of the animals' magnetics sense. It is based on the talks given by Thorsten Ritz in BIOMAT2018 congress, whose main topic was quantum biology. The aim of these pages is to explain the main results in this particular topic (magnetic sensing), its connections with quantum physics and also to offer some other highlights of the talks. Moreover the reader can find some personal opinions and possibles advances that I discussed with Thorsten himself. 
+\end{abstract}
+
+\begin{keyword}
+ \texttt{Quantum Physics} \sep \texttt{Mathematics}\sep \texttt{Quantum Biology} \sep \texttt{Magnetic Sensing}
+\end{keyword}
+
+\end{frontmatter}
+\setlength\parindent{0pt}
+\linenumbers
+
+\section{Introducción}
+\spacing{1.5}
+
+
+\section*{Referencias}
+\spacing{1.5}
+\bibliography{bibliograf}
+
+\begin{appendices}
+	
+
+\end{appendices}
+
+
+\end{document}
