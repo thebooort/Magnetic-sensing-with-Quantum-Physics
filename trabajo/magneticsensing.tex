@@ -9,6 +9,7 @@
 \usepackage{listings}
 \usepackage{graphicx}
 \usepackage{amsfonts}
+\usepackage{wrapfig}
 \usepackage[toc,page]{appendix}
 \usepackage{amssymb}
 \newtheorem{thm}{Teorema}
@@ -16,7 +17,7 @@
 \newdefinition{rmk}{Remark}
 \newproof{pf}{Demostración}
 \newproof{pot}{Demostración del Teorema \ref{thm2}}
- 
+ \graphicspath{ {./images/} }
  \usepackage{listings}
  \usepackage{color}
  
@@ -82,12 +83,23 @@ This work offers a brief look in the quantum physics' explanation of the animals
 
 Nos encontramos ante un delicado campo de estudio. En esta primera sección vamos a exponer los principales hallazgos en cuanto a el conocimiento de que diversas especies animales poseen la capacidad de sentir campos magnéticos, en particular el campo magnético terrestre.
 
-Destacamos que aun hoy sabemos bastante poco sobre este sentido. Si bien los mecanismos hoy día están investigándose, estamos lejos de comprender este sentido completamente.
+Destacamos que aun hoy sabemos bastante poco sobre este sentido. Si bien los mecanismos hoy día están investigándose, estamos lejos de comprender este sentido completamente. Factores como los mecanismos fisicos implicados, las moleculas receptoras, la transducción de la señal o el procesado neuronal de la misma, son aun objetivo d intenso debate y estudio.
 
-Aun asi, aunque no sepamos todos los mecanismos involucrados, conocemos la existencia y algunos de los limites de este sentido gracias a los experimentos que se llevan a cabo con diferentes especies animales. Son las respuesta comportamentales que se observan en los sujetos de los experimentos las que nos presetan el mayor indicio de que este sentido existe y tiene un alto impacto en su dinámica, aun sin saber como funciona exactamente.
+Aun asi, aunque no sepamos todos los mecanismos involucrados, conocemos la existencia y algunos de los límites de este sentido, gracias a los experimentos que se llevan a cabo con diferentes especies animales. Son las respuesta comportamentales que se observan en los sujetos de los experimentos, las que nos presentan el mayor indicio de que este sentido existe y tiene un alto impacto en su dinámica, aun sin saber como funciona exactamente.
 
-En primer lugar, en estos estudios es habitual comprender la tierra como un barra magnetica gigante. Y, nos interesamos por campo magnetico vectorial. Aunque en cada punto podemos encontrar 3 componentes espaciales, solemos medir la componente horizontal, también, es destacable el angulo de inclinación, como veremos durante los experimentos. 
+En primer lugar, en estos estudios es habitual comprender la tierra como un barra magnética gigante (gigante no nos debe conducir a error: el campo magnético terrestre es difícil de detectar biológicamente). Y, nos interesamos por campo magnético vectorial. Aunque en cada punto podemos encontrar 3 componentes espaciales, solemos medir la componente horizontal, y también es destacable el ángulo de inclinación, como veremos durante los experimentos. 
 
+Uno de los animales más habituales en este tipo de experimentos son los pájaros. Es de sobra conocido que muchas aves tienen pautas de migración muy interesantes y complejas, en las que tener sensibilidad al campo magnético terrestre juega un papel crucial.
+
+ En este área los primeros experimentos fueron gracias al desarrollo de instrumental experimental especifico, puesto que los métodos observacionales se mostraron ineficaces. Como se puede leer en \cite{embudo}, los investigadores desarrollaron un embudo \ref{embudo_1} para percibir la dirección que toman los pájaros durante los experimentos. 
+  \begin{figure}
+  	\centering
+  	\includegraphics[width=0.5\textwidth]{emlen_funnel}
+  	\caption{Diagrama de embudo de Emlen}
+  	\label{embudo_1}
+  \end{figure}
+  
+ Uno de los primeros estudios con esta técnica centrado en el campo magnético terrestre fue llevado a cabo en 1972. En el se escogió al petirrojo europeo (\textit{Erithacus rubecula}),el cual está distribuido por toda Europa, principalmente en la región meridional y occidental del continente, donde habita todo el año, siendo migrante parcial en el norte de Europa y noroeste de África.
 
 
 \section{Mecanismo de par radical}
@@ -104,6 +116,7 @@ En primer lugar, en estos estudios es habitual comprender la tierra como un barr
 
 \section*{Referencias}
 \spacing{1.5}
+\bibliographystyle{apalike}
 \bibliography{bibliograf}
 
 \begin{appendices}
